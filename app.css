@@ -1,0 +1,98 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+#card {
+    background-color: hsl(216, 50%, 16%);
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+}
+
+#cardContent {
+    padding: 5%;
+}
+
+#nftImage {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5%;
+    margin-right: 0px;
+}
+
+#nftName {
+    transition: 0.5s ease-in;
+    transition: 0.5s ease-out;
+    color: white
+}
+    
+
+#description {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+#price {
+    color: hsl(178, 100%, 50%)
+}
+
+#time {
+    color: hsl(215, 51%, 70%);
+}
+
+#creator {
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    align-items: center;
+}
+
+#jules {
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 5%;
+}
+
+#priceTime {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+
+
+hr {
+    border-top: 1px solid hsl(215, 51%, 70%);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+
+
+#nftName:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;  
+}
+
